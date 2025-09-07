@@ -1937,6 +1937,18 @@ pub(crate) const LIST: &[(&str, TargetInfo<'static>)] = &[
         },
     ),
     (
+        "m68k-unknown-netbsd",
+        TargetInfo {
+            full_arch: "powerpc",
+            arch: "m68k",
+            vendor: "unknown",
+            os: "netbsd",
+            env: "",
+            abi: "",
+            llvm_target: "m68k-unknown-netbsd",
+        },
+    ),
+    (
         "powerpc-unknown-openbsd",
         TargetInfo {
             full_arch: "powerpc",

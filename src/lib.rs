@@ -3411,6 +3411,7 @@ impl Build {
                     "mipsisa32r6el-unknown-linux-gnu" => Some("mipsisa32r6el-linux-gnu"),
                     "mipsisa64r6-unknown-linux-gnuabi64" => Some("mipsisa64r6-linux-gnuabi64"),
                     "mipsisa64r6el-unknown-linux-gnuabi64" => Some("mipsisa64r6el-linux-gnuabi64"),
+                    "m68k-unknown-netbsd" => Some("m68k--netbsd"),
                     "powerpc-unknown-linux-gnu" => Some("powerpc-linux-gnu"),
                     "powerpc-unknown-linux-gnuspe" => Some("powerpc-linux-gnuspe"),
                     "powerpc-unknown-netbsd" => Some("powerpc--netbsd"),
