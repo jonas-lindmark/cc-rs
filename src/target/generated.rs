@@ -1939,7 +1939,7 @@ pub(crate) const LIST: &[(&str, TargetInfo<'static>)] = &[
     (
         "m68k-unknown-netbsd",
         TargetInfo {
-            full_arch: "powerpc",
+            full_arch: "m68k",
             arch: "m68k",
             vendor: "unknown",
             os: "netbsd",
