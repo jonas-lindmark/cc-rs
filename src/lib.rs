@@ -3510,6 +3510,7 @@ impl Build {
                     "i686-unknown-netbsd" => Some("i486--netbsdelf"),
                     "loongarch64-unknown-linux-gnu" => Some("loongarch64-linux-gnu"),
                     "m68k-unknown-linux-gnu" => Some("m68k-linux-gnu"),
+                    "m68k-unknown-netbsd" => Some("m68k--netbsd"),
                     "mips-unknown-linux-gnu" => Some("mips-linux-gnu"),
                     "mips-unknown-linux-musl" => Some("mips-linux-musl"),
                     "mipsel-unknown-linux-gnu" => Some("mipsel-linux-gnu"),

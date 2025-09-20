@@ -142,6 +142,7 @@ pub(crate) const LLVM_TARGETS: &[(&str, &str)] = &[
     ("loongarch64-unknown-none", "loongarch64-unknown-none"),
     ("loongarch64-unknown-none-softfloat", "loongarch64-unknown-none"),
     ("m68k-unknown-linux-gnu", "m68k-unknown-linux-gnu"),
+    ("m68k-unknown-netbsd", "m68k-unknown-netbsd"),
     ("m68k-unknown-none-elf", "m68k"),
     ("mips-mti-none-elf", "mips"),
     ("mips-unknown-linux-gnu", "mips-unknown-linux-gnu"),
